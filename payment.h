@@ -9,6 +9,7 @@ class Payment {
     int cardnumber;
     int expdate;
     char cardholdername[50];
+    Item* item;
     Invoice* invoiceNo[100];
 
   public:
